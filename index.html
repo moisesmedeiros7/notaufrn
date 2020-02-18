@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculara de Notas - UFRN</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img.jpg">
+</head>
+<body>
+    <header><h1>Calculadora de Notas - UFRN</h1></header>
+    <section>
+        <div id="dados">
+            <p>
+                Unidade 1: <input type="number" name="txnota1" id="txnota1"></br></br>
+                Unidade 2: <input type="number" name="txnota2" id="txnota2"></br></br>
+                Unidade 3: <input type="number" name="txnota3" id="txnota3"></br></br>
+            </p>
+            <input type="button" class="btn" value="calcular" id="calcular" onclick="calcular()">
+            <input type="button" class="btn" value="limpar" id="limpar" onclick="limpar()"></br>
+        </div>
+        <div id="res">
+        </br><img id="imagem" src="duvida.jpg" alt="status">
+        </div>
+    </section>
+    <script src="script.js"></script>
+    </body>
+</html>

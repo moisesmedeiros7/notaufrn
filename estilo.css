@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+    font: normal 15pt Arial;
+    height: auto;
+    width: auto; 
+    
+}
+
+header{
+    /*width: 1020px;*/
+    color: #0d7a8e;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    float: center;
+}
+
+#dados{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width:  350px;
+    height: 300px;
+    margin: 0.5em;
+    /*margin-right: 1.5em;*/
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;   
+    font-style: italic;
+    font-size: 1.6em;
+    float: center;
+}
+
+#res{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    height: 300px;
+    margin: 0.5em;
+    /*margin-left: 1.5em;*/
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;   
+    font-style: italic;
+}
+
+#dados p input {  /* inputs de notas */
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.btn{
+    padding: 5px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(148, 148, 7);
+}
+
+#res img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
+@media screen and (min-width:800px){
+    #dados{
+    padding: 15px;
+    width: 250px; 
+    height: 350px;
+    margin: 0.5em;
+    float: left;
+    margin-left: 19em;
+    margin-right: 0.5em;
+    font-size: 1.0em;
+    }
+
+    #res{
+    padding: 15px;
+    width: 250px;
+    height: 350px;
+    margin: 0.5em;
+    float: left;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    }
+
+}
